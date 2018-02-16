@@ -22,8 +22,8 @@ g = plot3d(sin(x)*cos(y), (x, -5, 5), (y, -10, 10), show=False)  # 3d surface ca
 h = plot3d_parametric_surface(cos(u)*v, sin(u)*v, u, (u, 0, 10), (v, -2, 2), show=False)  # 3d parametric surface plot
 
 # Some aesthetics
-e[0].line_color = lambda x: x / 4
-f[0].line_color = lambda x, y, z: z / 10
+e[0].line_color = lambda x: x / 8
+f[0].line_color = lambda x, y, z: z / 20
 g[0].surface_color = lambda x, y: sin(x)
 
 # Some more stuff on aesthetics - coloring wrt coordinates or parameters
